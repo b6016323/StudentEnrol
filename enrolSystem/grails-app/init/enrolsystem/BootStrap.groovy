@@ -15,7 +15,14 @@ class BootStrap {
 	tuitionFees:9000.60,
 	description:'Lorem Ipsum dolor sit amet, cum sale error tants ne. Te duo putant detracto. In duo sonet urbanitas, ad vim vide tacimates.'
 	).save()
-
+	def webDev = new Module (
+	title:'Web Development',
+	code:'WD40',
+	credits:40,
+	lecturer:'Philip H. Parsons',
+	course:'Computing',
+	description:'An overview of the many aspects of Web Development.'
+	).save()
     }
     def destroy = {
     }
